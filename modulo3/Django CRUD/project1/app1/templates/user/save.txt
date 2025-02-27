@@ -1,0 +1,11 @@
+ <!-- <a class="btn btn-primary btn-block" href="{% url 'createuser' %}">
+        <i class="fa fa-plus-circle"></i>Adicionar usuario
+        </a>-->
+
+            <!--    <a class="btn btn-warning" href="{% url 'refreshuser' user.pk %}">
+                            <i class="fas fa-edit"></i>
+                        </a>
+                        <a class="btn btn-danger" href="{% url 'deleteuser' user.pk %}">
+                            <i class="fas fa-trash-alt"></i>
+                        </a>
+                        -->

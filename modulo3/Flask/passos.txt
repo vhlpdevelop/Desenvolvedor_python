@@ -1,0 +1,22 @@
+Preparando o ambiente virtual (python -m venv ./env)
+Ativando ambiente virtual(env\Scripts\activate)
+instalando flask(pip install flask)
+instalação das bibliotecas necessárias(jinja2)(pip install jinja2)
+
+verificar versão do flask(python -m flask --version)
+guardar dependencias(pip freeze > requirements.txt)
+-------------------
+
+Primeiro arquivo do servidor criado (app.py)
+Inserido flask e primeira rota
+digitar comando (set FLASK_APP = app.py)
+
+digitar comando (flask run) para ativar o servidor
+Toda atualização precisa reiniciar
+-------------
+Criado documento html
+renderizar template ou rota dinamica
+
+-------------
+Instalação do flask-wtf (formulario)
+Atualiza o requirements

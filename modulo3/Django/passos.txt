@@ -1,0 +1,63 @@
+Verificar versao python (3.x.x)
+Criar Ambiente virtual ( python -m venv ./env )
+Ativar ambiente virtual ( env\Scripts\activate ) Verifique o caminho!
+
+Instalar Django(pip install django)
+
+verificar versao django(python -m django --version)
+
+guardar as dependencias (pip freeze > requirements.txt) 
+
+Criando projeto django (django-admin startproject projeto1)
+
+Fazer as configurações do settings.py(arquivos estaticos e templates)
+
+Rodando projeto (python .\manage.py runserver )
+
+Criação de um app dentro do projeto(python manage.py startapp app1) app1 seria o nome
+
+-------------
+
+criar app "python manage.py startapp app1
+
+configurar url (projet1 e app1)
+
+criamos views(index)
+
+criamos pasta de templates
+
+--------------------
+Adicionado app1 em settings.py INSTALLED_APPS
+
+Criar migrações do model user () python manage.py makemigrations
+
+aplicado migrações (python manage.py migrate)
+
+-----------------------
+
+Usando funcoes python no shell
+python manage.py shell <- Podemos usar para executar comandos RM e 
+                            fazer query seguras para verificar criação de tabelas
+
+Criando superuser (python manage.py createsuperuser) senha 1234 username vitao
+
+registrar models no admin.py (app1)
+
+--------
+Erros na inserção de dados
+-> mudar o campo no models telefone para biginteger
+cria migrações do model user( python manage.py makemigrations )
+e depois aplicar as migrações( python manage.py migrate)
+
+Agora criar templates
+
+todo template tem que ser adicionado na view e em seguida adicionado no url
+----------
+
+Criado Formulario para usuario em forma de GET
+
+Testar formulario é apenas renderizar
+
+Usando jinja (engine de templates) ele insere codigo no template
+
+Usar bootstrap(css)
